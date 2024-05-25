@@ -78,21 +78,21 @@ const SignUp7 = (props) => {
 SignUp7.defaultProps = {
   action2: 'Continue with Facebook',
   content1: 'Sign up to see details',
-  image1Alt: 'SignUp Image',
+  action3: 'Continue with Google',
   heading1: 'Create an account',
+  image1Alt: 'SignUp Image',
   image1Src:
     'https://images.unsplash.com/photo-1605089103010-bcba7ca9b10d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNjY3MzA3NXw&ixlib=rb-4.0.3&q=80&w=1080',
-  action3: 'Continue with Google',
   action1: 'Continue with email',
 }
 
 SignUp7.propTypes = {
   action2: PropTypes.string,
   content1: PropTypes.string,
-  image1Alt: PropTypes.string,
-  heading1: PropTypes.string,
-  image1Src: PropTypes.string,
   action3: PropTypes.string,
+  heading1: PropTypes.string,
+  image1Alt: PropTypes.string,
+  image1Src: PropTypes.string,
   action1: PropTypes.string,
 }
 

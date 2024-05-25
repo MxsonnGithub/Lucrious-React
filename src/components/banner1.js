@@ -22,16 +22,16 @@ const Banner1 = (props) => {
 }
 
 Banner1.defaultProps = {
+  heading1: 'Lockdown/Error',
+  action1: 'Try to go home.',
   content1:
     'There is either a lockdown or a error in the system at the moment, Please stay calm well we settle this.',
-  action1: 'Try to go home.',
-  heading1: 'Lockdown/Error',
 }
 
 Banner1.propTypes = {
-  content1: PropTypes.string,
-  action1: PropTypes.string,
   heading1: PropTypes.string,
+  action1: PropTypes.string,
+  content1: PropTypes.string,
 }
 
 export default Banner1

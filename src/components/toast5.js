@@ -11,8 +11,8 @@ const Toast5 = (props) => {
       <div className="toast5-header">
         <div className="toast5-logo">
           <img
-            src={props.imageSrc}
             alt={props.imageAlt}
+            src={props.imageSrc}
             className="toast5-image"
           />
         </div>
@@ -36,22 +36,22 @@ const Toast5 = (props) => {
 Toast5.defaultProps = {
   button1: 'Go home',
   bannerTitle: 'Welcome to Lucrious Gaming!',
-  logoAlt: 'Lucrious Gaming Logo',
   logoSrc:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
-  bannerSubtitle: 'directory',
   imageSrc: '/newpfplucrious-200h.jpg',
+  logoAlt: 'Lucrious Gaming Logo',
   imageAlt: 'image',
+  bannerSubtitle: 'directory',
 }
 
 Toast5.propTypes = {
   button1: PropTypes.string,
   bannerTitle: PropTypes.string,
-  logoAlt: PropTypes.string,
   logoSrc: PropTypes.string,
-  bannerSubtitle: PropTypes.string,
   imageSrc: PropTypes.string,
+  logoAlt: PropTypes.string,
   imageAlt: PropTypes.string,
+  bannerSubtitle: PropTypes.string,
 }
 
 export default Toast5
