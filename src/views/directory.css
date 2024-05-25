@@ -1,0 +1,17 @@
+.directory-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.directory-text {
+  font-size: 30px;
+}
+.directory-navlink {
+  text-decoration: none;
+}
+.directory-navlink1 {
+  text-decoration: none;
+}
