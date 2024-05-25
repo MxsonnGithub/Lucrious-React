@@ -27,13 +27,13 @@ const NotFound4 = (props) => {
 }
 
 NotFound4.defaultProps = {
-  action1: 'Back to homepage',
   content1: "We can't seem to find the page you are looking for.",
+  action1: 'Back to homepage',
 }
 
 NotFound4.propTypes = {
-  action1: PropTypes.string,
   content1: PropTypes.string,
+  action1: PropTypes.string,
 }
 
 export default NotFound4

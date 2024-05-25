@@ -8,15 +8,17 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import Home from './views/home'
 import Jerror from './views/jerror'
+import Home from './views/home'
+import Links from './views/links'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={Home} exact path="/" />
         <Route component={Jerror} path="**" />
+        <Route component={Home} exact path="/" />
+        <Route component={Links} exact path="/links" />
         <Redirect to="**" />
       </Switch>
     </Router>
