@@ -9,7 +9,19 @@ const Home = (props) => {
     <div className="home-container">
       <Helmet>
         <title>Lucrious</title>
+        <meta
+          name="description"
+          content="Home page for the lucrious website."
+        />
         <meta property="og:title" content="Lucrious" />
+        <meta
+          property="og:description"
+          content="Home page for the lucrious website."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/46f00f36-26a5-4fb9-9573-1b391089a425/34a1dd8e-4c2e-4712-aa6d-7ab001f625fe?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <div className="home-section-separator"></div>
       <div className="home-section-separator1"></div>
