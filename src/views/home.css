@@ -6,28 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.home-container1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 114px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.home-image {
-  width: 80px;
-  height: 93px;
-  box-shadow: 5px 5px 10px 0px #000000;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius4);
-}
-.home-text {
-  font-size: 60px;
-  box-shadow: 5px 5px 10px 0px #000000;
-  font-style: normal;
-  font-family: "Fuzzy Bubbles";
-  font-weight: 700;
-}
 .home-section-separator {
   width: 100%;
   height: 1px;
@@ -45,7 +23,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-container2 {
+.home-container1 {
   width: 100%;
   height: 569px;
   display: flex;
@@ -69,26 +47,31 @@
   justify-content: space-between;
   background-color: #f1f1f1;
 }
+.home-image {
+  width: 483px;
+  object-fit: cover;
+}
 .home-hero-text-container {
   width: 45%;
   display: flex;
+  position: relative;
   align-items: flex-start;
   flex-direction: column;
 }
 .home-heading {
-  color: #040404;
+  color: rgb(4, 4, 4);
   font-size: 48px;
-  box-shadow: 5px 5px 10px 0px #000000;
+  align-self: center;
   font-family: "Fuzzy Bubbles";
   font-weight: 900;
   line-height: 1.22;
   border-color: var(--dl-color-gray-black);
-  border-width: 1px;
+  border-width: 0px;
   margin-bottom: var(--dl-space-space-tripleunit);
   text-transform: none;
   text-decoration: none;
 }
-.home-text01 {
+.home-text {
   color: var(--dl-color-gray-black);
   font-family: "Fuzzy Bubbles";
   font-weight: 700;
@@ -113,13 +96,13 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   animation-delay: 0s;
   text-decoration: none;
-  background-color: #c9c9c9;
+  background-color: #ffffff;
   animation-duration: 300ms;
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-text02 {
+.home-text01 {
   color: rgb(16, 16, 16);
   font-family: "Fuzzy Bubbles";
 }
@@ -146,26 +129,6 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-container3 {
-  width: 40%;
-  height: 461px;
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
-  background-position: center;
-}
-.home-link {
-  display: contents;
-}
-.home-image1 {
-  width: 476px;
-  height: 450px;
-  box-shadow: 5px 5px 10px 0px #000000;
-  object-fit: cover;
-  text-decoration: none;
-}
 .home-features {
   width: 100%;
   display: flex;
@@ -186,7 +149,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text03 {
+.home-text02 {
   color: var(--dl-color-gray-black);
   font-size: 48px;
   font-family: "Fuzzy Bubbles";
@@ -223,7 +186,7 @@
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.home-image2 {
+.home-image1 {
   width: 132px;
   height: 120px;
   object-fit: cover;
@@ -233,7 +196,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text04 {
+.home-text03 {
   text-align: center;
   font-family: "Fuzzy Bubbles";
 }
@@ -265,7 +228,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text05 {
+.home-text04 {
   color: var(--dl-color-gray-black);
   text-align: center;
   font-family: "Fuzzy Bubbles";
@@ -298,9 +261,14 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text06 {
+.home-text05 {
   text-align: center;
   font-family: "Spectral";
+}
+.home-text06 {
+  font-style: normal;
+  font-family: "Fuzzy Bubbles";
+  font-weight: 400;
 }
 .home-text07 {
   font-style: normal;
@@ -308,11 +276,6 @@
   font-weight: 400;
 }
 .home-text08 {
-  font-style: normal;
-  font-family: "Fuzzy Bubbles";
-  font-weight: 400;
-}
-.home-text09 {
   font-style: normal;
   font-family: "Fuzzy Bubbles";
   font-weight: 400;
@@ -356,7 +319,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-container4 {
+.home-container2 {
   width: 50%;
   height: 600px;
   display: flex;
@@ -366,12 +329,12 @@
   background-image: url("/default-img.svg");
   background-position: center;
 }
-.home-image3 {
-  width: 100%;
+.home-image2 {
+  width: 636px;
   height: 100%;
   object-fit: cover;
 }
-.home-container5 {
+.home-container3 {
   width: 50%;
   display: flex;
   align-self: stretch;
@@ -389,7 +352,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text11 {
+.home-text10 {
   color: var(--dl-color-gray-black);
   font-size: 48px;
   font-family: "Fuzzy Bubbles";
@@ -399,7 +362,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text12 {
+.home-text11 {
   color: var(--dl-color-gray-black);
   font-size: 18px;
   font-family: "Fuzzy Bubbles";
@@ -409,7 +372,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-link1 {
+.home-link {
   color: var(--dl-color-gray-white);
   text-align: center;
   padding-top: var(--dl-space-space-doubleunit);
@@ -428,10 +391,10 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-text13 {
+.home-text12 {
   font-family: "Fuzzy Bubbles";
 }
-.home-text14 {
+.home-text13 {
   color: var(--dl-color-gray-black);
   font-size: 16px;
   font-family: "Fuzzy Bubbles";
@@ -454,13 +417,10 @@
   .home-heading {
     text-align: center;
   }
-  .home-text01 {
+  .home-text {
     text-align: center;
   }
-  .home-container3 {
-    width: 100%;
-  }
-  .home-text03 {
+  .home-text02 {
     text-align: center;
   }
 }
@@ -495,23 +455,23 @@
   .home-subscribe {
     flex-direction: column;
   }
-  .home-container4 {
+  .home-container2 {
     width: 70%;
   }
-  .home-container5 {
+  .home-container3 {
     width: 100%;
     align-items: center;
   }
   .home-heading-container1 {
     width: 100%;
   }
+  .home-text10 {
+    text-align: center;
+  }
   .home-text11 {
     text-align: center;
   }
-  .home-text12 {
-    text-align: center;
-  }
-  .home-link1 {
+  .home-link {
     width: 70%;
   }
 }
@@ -528,14 +488,14 @@
   .home-card2 {
     width: 100%;
   }
-  .home-container4 {
+  .home-container2 {
     width: 100%;
   }
-  .home-container5 {
+  .home-container3 {
     padding-left: var(--dl-space-space-tripleunit);
     padding-right: var(--dl-space-space-tripleunit);
   }
-  .home-link1 {
+  .home-link {
     width: 100%;
   }
 }

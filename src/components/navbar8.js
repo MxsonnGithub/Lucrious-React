@@ -6,15 +6,15 @@ import PropTypes from 'prop-types'
 import './navbar8.css'
 
 const Navbar8 = (props) => {
-  const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)
   const [link5DropdownVisible, setLink5DropdownVisible] = useState(false)
+  const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)
   return (
     <div className="navbar8-container">
       <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
         <div className="navbar8-image1">
           <img
-            src={props.imageSrc}
             alt={props.imageAlt}
+            src={props.imageSrc}
             className="navbar8-image"
           />
         </div>
@@ -233,68 +233,68 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  link1: 'Home',
-  page4Description: 'Connect with Lucrious and the community on Discord',
-  page1ImageSrc:
-    'https://images.unsplash.com/photo-1655715729867-bff6365fbc4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNjczNDU5Nnw&ixlib=rb-4.0.3&q=80&w=1080',
-  action1: 'Sign Up for Monthly Updates',
-  page2ImageAlt: 'YouTube Icon',
-  link3: 'About',
-  logoAlt: 'Lucrious Logo',
-  logoSrc:
-    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
-  page3ImageAlt: 'Roblox Studio Icon',
-  page1: 'Home',
+  link5: 'Support',
   link2: 'Monthly Updates',
   page4ImageSrc:
     'https://images.unsplash.com/photo-1616469829526-7057a1427626?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNjczNDU5Nnw&ixlib=rb-4.0.3&q=80&w=1080',
-  page4: 'Join Discord',
   page2: 'YouTube',
-  link5: 'Support',
-  page4ImageAlt: 'Discord Icon',
-  page1Description: "Welcome to Lucrious' Gaming Content Creator website",
+  page3Description: "Explore Lucrious' creations in Roblox Studio",
+  logoSrc:
+    'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&force_format=original',
+  page1ImageAlt: 'Lucrious Logo',
   page2ImageSrc:
     'https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNjczNDU5N3w&ixlib=rb-4.0.3&q=80&w=1080',
   page3ImageSrc:
     'https://images.unsplash.com/photo-1680711000673-5fc486fa2a9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNjczNDU5N3w&ixlib=rb-4.0.3&q=80&w=1080',
+  page1: 'Home',
   page2Description: "Check out Lucrious' latest gaming videos on YouTube",
-  link4: 'Contact',
-  page3: 'Roblox Studio',
-  page3Description: "Explore Lucrious' creations in Roblox Studio",
-  page1ImageAlt: 'Lucrious Logo',
-  action2: 'Join Discord Server',
-  imageSrc: '/newpfplucrious-200h.jpg',
   imageAlt: 'image',
+  page1ImageSrc:
+    'https://images.unsplash.com/photo-1655715729867-bff6365fbc4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNjczNDU5Nnw&ixlib=rb-4.0.3&q=80&w=1080',
+  page4Description: 'Connect with Lucrious and the community on Discord',
+  page4: 'Join Discord',
+  link1: 'Home',
+  link4: 'Contact',
+  page3ImageAlt: 'Roblox Studio Icon',
+  link3: 'About',
+  page3: 'Roblox Studio',
+  action2: 'Join Discord Server',
+  page1Description: "Welcome to Lucrious' Gaming Content Creator website",
+  page4ImageAlt: 'Discord Icon',
+  page2ImageAlt: 'YouTube Icon',
+  action1: 'Sign Up for Monthly Updates',
+  logoAlt: 'Lucrious Logo',
+  imageSrc: '/newpfplucrious-200h.jpg',
 }
 
 Navbar8.propTypes = {
-  link1: PropTypes.string,
-  page4Description: PropTypes.string,
-  page1ImageSrc: PropTypes.string,
-  action1: PropTypes.string,
-  page2ImageAlt: PropTypes.string,
-  link3: PropTypes.string,
-  logoAlt: PropTypes.string,
-  logoSrc: PropTypes.string,
-  page3ImageAlt: PropTypes.string,
-  page1: PropTypes.string,
+  link5: PropTypes.string,
   link2: PropTypes.string,
   page4ImageSrc: PropTypes.string,
-  page4: PropTypes.string,
   page2: PropTypes.string,
-  link5: PropTypes.string,
-  page4ImageAlt: PropTypes.string,
-  page1Description: PropTypes.string,
+  page3Description: PropTypes.string,
+  logoSrc: PropTypes.string,
+  page1ImageAlt: PropTypes.string,
   page2ImageSrc: PropTypes.string,
   page3ImageSrc: PropTypes.string,
+  page1: PropTypes.string,
   page2Description: PropTypes.string,
-  link4: PropTypes.string,
-  page3: PropTypes.string,
-  page3Description: PropTypes.string,
-  page1ImageAlt: PropTypes.string,
-  action2: PropTypes.string,
-  imageSrc: PropTypes.string,
   imageAlt: PropTypes.string,
+  page1ImageSrc: PropTypes.string,
+  page4Description: PropTypes.string,
+  page4: PropTypes.string,
+  link1: PropTypes.string,
+  link4: PropTypes.string,
+  page3ImageAlt: PropTypes.string,
+  link3: PropTypes.string,
+  page3: PropTypes.string,
+  action2: PropTypes.string,
+  page1Description: PropTypes.string,
+  page4ImageAlt: PropTypes.string,
+  page2ImageAlt: PropTypes.string,
+  action1: PropTypes.string,
+  logoAlt: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default Navbar8
