@@ -3,7 +3,6 @@ import React from 'react'
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import Navbar8 from '../components/navbar8'
 import './lucrious-linksandcount.css'
 
 const LucriousLinksandcount = (props) => {
@@ -13,8 +12,9 @@ const LucriousLinksandcount = (props) => {
         <title>Lucrious-linksandcount - Lucrious</title>
         <meta property="og:title" content="Lucrious-linksandcount - Lucrious" />
       </Helmet>
-      <Navbar8></Navbar8>
-      <span className="lucrious-linksandcount-text">Lucrious</span>
+      <span className="lucrious-linksandcount-text">
+        Lucrious&apos;s Live Subcount!
+      </span>
       <div className="lucrious-linksandcount-container1">
         <div className="lucrious-linksandcount-container2">
           <div className="lucrious-linksandcount-container3">
@@ -25,24 +25,21 @@ const LucriousLinksandcount = (props) => {
         </div>
       </div>
       <a
-        href="https://www.youtube.com/@RealLucrious"
+        href="https://discord.gg/jTsHqEEyPV"
         target="_blank"
         rel="noreferrer noopener"
         className="lucrious-linksandcount-link button"
       >
-        <span>
-          <span>Youtube</span>
-          <br></br>
-        </span>
+        <span>My Discord</span>
       </a>
       <a
-        href="https://discord.gg/jTsHqEEyPV"
+        href="https://www.youtube.com/@RealLucrious"
         target="_blank"
         rel="noreferrer noopener"
         className="lucrious-linksandcount-link1 button"
       >
         <span>
-          <span>Discord</span>
+          <span>My YouTube</span>
           <br></br>
         </span>
       </a>
