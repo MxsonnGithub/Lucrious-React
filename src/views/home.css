@@ -15,12 +15,15 @@
   justify-content: center;
 }
 .home-image {
-  width: 94px;
-  height: 102px;
+  width: 80px;
+  height: 93px;
+  box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius4);
 }
 .home-text {
   font-size: 60px;
+  box-shadow: 5px 5px 10px 0px #000000;
   font-style: normal;
   font-family: "Fuzzy Bubbles";
   font-weight: 700;
@@ -75,10 +78,12 @@
 .home-heading {
   color: #040404;
   font-size: 48px;
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  box-shadow: 5px 5px 10px 0px #000000;
   font-family: "Fuzzy Bubbles";
   font-weight: 900;
   line-height: 1.22;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
   margin-bottom: var(--dl-space-space-tripleunit);
   text-transform: none;
   text-decoration: none;
@@ -97,6 +102,7 @@
 }
 .home-cta-btn {
   color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #000000;
   text-align: center;
   padding-top: var(--dl-space-space-doubleunit);
   margin-right: var(--dl-space-space-fourunits);
@@ -120,7 +126,7 @@
 .home-cta-btn1 {
   color: var(--dl-color-gray-black);
   font-size: 16px;
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  box-shadow: 5px 5px 10px 0px #000000;
   text-align: center;
   font-family: "Fuzzy Bubbles";
   font-weight: 700;
@@ -150,10 +156,15 @@
   background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
   background-position: center;
 }
+.home-link {
+  display: contents;
+}
 .home-image1 {
   width: 476px;
   height: 450px;
+  box-shadow: 5px 5px 10px 0px #000000;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-features {
   width: 100%;
@@ -398,7 +409,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-link {
+.home-link1 {
   color: var(--dl-color-gray-white);
   text-align: center;
   padding-top: var(--dl-space-space-doubleunit);
@@ -500,7 +511,7 @@
   .home-text12 {
     text-align: center;
   }
-  .home-link {
+  .home-link1 {
     width: 70%;
   }
 }
@@ -524,7 +535,7 @@
     padding-left: var(--dl-space-space-tripleunit);
     padding-right: var(--dl-space-space-tripleunit);
   }
-  .home-link {
+  .home-link1 {
     width: 100%;
   }
 }

@@ -1,0 +1,39 @@
+.lucrious-linksandcount-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.lucrious-linksandcount-text {
+  font-size: 50px;
+  font-family: "Fuzzy Bubbles";
+}
+.lucrious-linksandcount-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lucrious-linksandcount-container2 {
+  width: 301px;
+  height: 87px;
+}
+.lucrious-linksandcount-container3 {
+  display: contents;
+}
+.lucrious-linksandcount-link {
+  width: 278px;
+  height: 64px;
+  font-family: "Fuzzy Bubbles";
+  text-decoration: none;
+}
+.lucrious-linksandcount-link1 {
+  width: 278px;
+  height: 64px;
+  font-family: "Fuzzy Bubbles";
+  text-decoration: none;
+}

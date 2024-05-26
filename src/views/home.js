@@ -62,11 +62,18 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-container3">
-            <img
-              alt="image"
-              src="/newpfplucrious-1500w.jpg"
-              className="home-image1"
-            />
+            <a
+              href="https://bit.ly/dontclickplease333"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link"
+            >
+              <img
+                alt="image"
+                src="/newpfplucrious-1500w.jpg"
+                className="home-image1"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -143,7 +150,7 @@ const Home = (props) => {
           </div>
           <a
             href="https://form.jotform.com/241456558035055"
-            className="home-link button Anchor"
+            className="home-link1 Anchor button"
           >
             Sign up!
           </a>
