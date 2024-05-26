@@ -32,6 +32,12 @@ const Directory = (props) => {
           <br></br>
         </span>
       </Link>
+      <Link to="/subcount" className="directory-navlink2 button">
+        <span>
+          <span>Lucrious sub count</span>
+          <br></br>
+        </span>
+      </Link>
     </div>
   )
 }
