@@ -6,10 +6,11 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #313131;
 }
 .directory-text {
+  color: #ffffff;
   font-size: 30px;
-  font-family: "Fuzzy Bubbles";
 }
 .directory-navlink {
   text-decoration: none;
@@ -18,5 +19,8 @@
   text-decoration: none;
 }
 .directory-navlink2 {
+  text-decoration: none;
+}
+.directory-navlink3 {
   text-decoration: none;
 }

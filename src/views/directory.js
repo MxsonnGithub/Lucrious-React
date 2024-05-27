@@ -36,6 +36,9 @@ const Directory = (props) => {
           <br></br>
         </span>
       </Link>
+      <Link to="/subscribe" className="directory-navlink3 button">
+        <span>Subscribe</span>
+      </Link>
     </div>
   )
 }

@@ -17,14 +17,18 @@
   flex-direction: column;
 }
 .banner1-title {
+  color: #ffffff;
   text-align: center;
   font-family: "Fuzzy Bubbles";
 }
 .banner1-text {
+  color: #ffffff;
   text-align: center;
   font-family: "Fuzzy Bubbles";
 }
 .banner1-navlink {
+  color: #ffffff;
   font-family: "Fuzzy Bubbles";
   text-decoration: none;
+  background-color: #f4e519;
 }

@@ -25,23 +25,20 @@ const LucriousLinksandcount = (props) => {
         </div>
       </div>
       <a
-        href="https://discord.gg/jTsHqEEyPV"
+        href="https://www.youtube.com/@RealLucrious"
         target="_blank"
         rel="noreferrer noopener"
         className="lucrious-linksandcount-link button"
       >
-        <span>My Discord</span>
+        My YouTube!
       </a>
       <a
-        href="https://www.youtube.com/@RealLucrious"
+        href="https://discord.gg/BJTFmgEf3v"
         target="_blank"
         rel="noreferrer noopener"
         className="lucrious-linksandcount-link1 button"
       >
-        <span>
-          <span>My YouTube</span>
-          <br></br>
-        </span>
+        My Discord!
       </a>
     </div>
   )
