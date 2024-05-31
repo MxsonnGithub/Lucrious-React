@@ -11,8 +11,8 @@ import './style.css'
 import LucriousLinksandcount from './views/lucrious-linksandcount'
 import LockdownError from './views/lockdown-error'
 import Directory from './views/directory'
-import Home from './views/home'
 import Subscribe from './views/subscribe'
+import Home from './views/home'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -22,8 +22,8 @@ const App = () => {
         <Route component={LucriousLinksandcount} exact path="/subcount" />
         <Route component={LockdownError} exact path="/lockdown" />
         <Route component={Directory} exact path="/dir" />
-        <Route component={Home} exact path="/" />
         <Route component={Subscribe} exact path="/subscribe" />
+        <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

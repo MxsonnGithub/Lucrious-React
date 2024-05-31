@@ -77,6 +77,51 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
+.home-navlink {
+  fill: #;
+  color: #ffffff;
+  width: 472px;
+  height: 115px;
+  border-color: #ffffff;
+  border-width: 3px;
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  text-decoration: none;
+  background-color: #313131;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.home-image1 {
+  width: 79px;
+  object-fit: cover;
+}
+.home-text {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+}
+.home-features {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  animation-name: none;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  animation-delay: 0s;
+  background-color: #313131;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
 .home-hero-text-container {
   width: 279px;
   display: flex;
@@ -103,7 +148,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-text {
+.home-text01 {
   color: #ffffff;
   font-family: "Fuzzy Bubbles";
   font-weight: 700;
@@ -130,51 +175,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-navlink {
-  fill: #;
-  color: #ffffff;
-  width: 472px;
-  height: 115px;
-  border-color: #ffffff;
-  border-width: 3px;
-  animation-name: fadeInUp;
-  animation-delay: 0s;
-  text-decoration: none;
-  background-color: #313131;
-  animation-duration: 1s;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-.home-image1 {
-  width: 79px;
-  object-fit: cover;
-}
-.home-text01 {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  font-family: "Comic Sans MS";
-}
-.home-features {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxcontent);
-  margin-top: var(--dl-space-space-fiveunits);
-  align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-tripleunit);
-  margin-bottom: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-tripleunit);
-  animation-name: none;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
-  animation-delay: 0s;
-  background-color: #313131;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
 }
 .home-heading-container {
   width: 45%;
@@ -414,11 +414,20 @@
   text-transform: capitalize;
   text-decoration: none;
 }
+@media(max-width: 1600px) {
+  .home-heading {
+    width: 544px;
+    margin-right: var(--dl-space-space-unit);
+  }
+}
 @media(max-width: 991px) {
   .home-hero {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+  }
+  .home-navlink {
+    height: 128px;
   }
   .home-hero-text-container {
     width: 80%;
@@ -428,14 +437,21 @@
   .home-heading {
     text-align: center;
   }
-  .home-text {
+  .home-text01 {
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-family: Fuzzy Bubbles;
+    font-weight: 700;
   }
   .home-text02 {
     text-align: center;
   }
 }
 @media(max-width: 767px) {
+  .home-image {
+    width: 183px;
+    height: 196px;
+  }
   .home-heading-container {
     width: 100%;
   }
@@ -479,6 +495,10 @@
   }
 }
 @media(max-width: 479px) {
+  .home-image {
+    width: 193px;
+    height: 197px;
+  }
   .home-hero-text-container {
     width: 100%;
   }

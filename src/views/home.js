@@ -29,7 +29,7 @@ const Home = (props) => {
         <div className="home-hero">
           <img
             alt="image"
-            src="/newpfplucrious-modified1-600h.png"
+            src="/newpfplucrious-modified1-500w.png"
             className="home-image"
           />
           <a
@@ -48,31 +48,31 @@ const Home = (props) => {
           >
             My Discord!
           </a>
-          <div className="home-hero-text-container">
-            <h1 className="home-heading">Gaming Content Creator</h1>
-            <span className="home-text">
-              Hi, I&apos;m Lucrious. I&apos;m a Gaming Content Creator who LOVES
-              being a YouTuber. I enjoy creating content for YOU!  I hope you
-              can enjoy the content I provide!
-            </span>
-            <div className="home-cta-btn-container">
-              <div className="home-container2"></div>
-            </div>
-          </div>
         </div>
       </div>
       <Link to="/subcount" className="home-navlink button">
-        <img src="/utubelogo-200h.png" alt="image" className="home-image1" />
-        <span className="home-text01">Lucrious&apos;s Live Subcount</span>
+        <img alt="image" src="/utubelogo-200h.png" className="home-image1" />
+        <span className="home-text">Lucrious&apos;s Live Subcount</span>
       </Link>
       <div className="home-features">
+        <div className="home-hero-text-container">
+          <h1 className="home-heading">Gaming Content Creator</h1>
+          <span className="home-text01">
+            Hi, I&apos;m Lucrious. I&apos;m a Gaming Content Creator who LOVES
+            being a YouTuber. I enjoy creating content for YOU!  I hope you can
+            enjoy the content I provide!
+          </span>
+          <div className="home-cta-btn-container">
+            <div className="home-container2"></div>
+          </div>
+        </div>
         <div className="home-heading-container">
           <h2 className="home-text02">Things I do!</h2>
         </div>
         <div className="home-cards-container">
           <div className="home-card">
             <div className="home-icon-container">
-              <img src="/yoou-300h.png" alt="image" className="home-image2" />
+              <img alt="image" src="/yoou-300h.png" className="home-image2" />
             </div>
             <div className="home-content-container">
               <span className="home-text03">Making Content YOU Enjoy!</span>
@@ -81,8 +81,8 @@ const Home = (props) => {
           <div className="home-card1">
             <div className="home-icon-container1">
               <img
-                src="/pastedimage-xul-600h.png"
                 alt="image"
+                src="/pastedimage-xul-600h.png"
                 className="home-image3"
               />
             </div>
@@ -97,8 +97,8 @@ const Home = (props) => {
           <div className="home-card2">
             <div className="home-icon-container2">
               <img
-                src="/pastedimage-sbuj-200h.png"
                 alt="image"
+                src="/pastedimage-sbuj-200h.png"
                 className="home-image4"
               />
             </div>
@@ -120,8 +120,8 @@ const Home = (props) => {
       <div className="home-subscribe">
         <div className="home-container3">
           <img
-            src="/get%20in%20touch1-1500w.png"
             alt="image"
+            src="/get%20in%20touch1-1500w.png"
             className="home-image5"
           />
         </div>
